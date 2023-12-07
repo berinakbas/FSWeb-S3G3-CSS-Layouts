@@ -1,1 +1,26 @@
-/* CSS stillerinizi buraya girin */
+
+h1 {
+    display: flex;
+    width: 750px;
+    justify-content: center;
+    color: orange;
+}
+
+.minibaslik {
+    justify-content: end;
+    width: 200px;
+    color: blue;
+    display: flex;
+}
+
+.kucukaltikare {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+   width: 900px;
+   flex-wrap: wrap;
+}   
+
+.kucukaltikare img {
+    width: 300px;
+}
