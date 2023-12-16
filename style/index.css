@@ -1,26 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
 
-h1 {
+
+.icice img {
     display: flex;
-    width: 750px;
-    justify-content: center;
-    color: orange;
+    width: 800px;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.ortala {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
 }
 
 .minibaslik {
-    justify-content: end;
-    width: 200px;
-    color: blue;
-    display: flex;
+   width: 450px;
+   margin: auto;
+   flex: 1;
+   gap: 10px;
+   text-align: end;
 }
 
 .kucukaltikare {
     margin-right: auto;
     margin-left: auto;
     display: flex;
-   width: 900px;
-   flex-wrap: wrap;
+    width: 1000px;
+    flex-wrap: wrap;
+    gap: 5px;
 }   
 
-.kucukaltikare img {
-    width: 300px;
+.icice {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+a {
+    border: 2px solid black;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+p {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.alt {
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
